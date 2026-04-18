@@ -45,6 +45,7 @@
     left: 50% !important;
     transform: translateX(-50%);
     overflow-y: auto;
+    overflow-x: auto;
     border-radius: 10px;
     border: 0px;
   }
