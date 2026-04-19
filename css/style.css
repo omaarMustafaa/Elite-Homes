@@ -81,6 +81,13 @@ body {
 #navbar .navbar .nav-link {
   color: #354156;
 }
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active,
+.nav-link.show {
+  color: #555555 !important;
+  background-color: #fff;
+}
 
 #navbar .nav-link {
   position: relative;
