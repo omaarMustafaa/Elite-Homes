@@ -73,7 +73,9 @@
     background-color: var(--bg-section);
   }
   /*END nav */
-
+  #home .statistics{
+    width: 768px;
+  }
   #contact .circle-1 {
     position: absolute;
     z-index: 1;
