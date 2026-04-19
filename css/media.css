@@ -1,9 +1,14 @@
 /* sm */
 @media screen and (min-width: 640px) {
+  .style-drob .PopularLocations .image-1 span,
+.style-drob .PopularLocations .image-2 span,
+.style-drob .PopularLocations .image-3 span {
+  font-size: 16px;
+}
   #home h1 {
     font-size: 48px;
   }
-  #home .search-bar ::placeholder{
+  #home .search-bar ::placeholder {
     font-size: 14px;
   }
   #FAQ .accordion-header button {
@@ -13,7 +18,7 @@
 
 /* md */
 @media screen and (min-width: 768px) {
-  #home .search-bar ::placeholder{
+  #home .search-bar ::placeholder {
     font-size: 16px;
   }
   #testimonials .header-section-style h2 {
@@ -43,7 +48,10 @@
     background-color: #fff;
   }
   /* drobdown */
-
+  .style-drob .PropertyTypes ul li span,
+  .style-drob .PropertyTypes ul li {
+    font-size: 16px;
+  }
   .scrollable-menu {
     max-height: 90vh;
     width: 80%;
@@ -122,6 +130,16 @@
 
 /* Xl */
 @media screen and (min-width: 1280px) {
+  .dropdown-menu .Featured .name {
+    font-size: 16px;
+  }
+  .style-drob .Featured img {
+    width: 70px;
+    height: 70px;
+  }
+  .dropdown-menu .Featured small {
+    font-size: 14px;
+  }
 }
 
 /* XXL */

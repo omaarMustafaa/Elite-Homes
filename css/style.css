@@ -133,13 +133,20 @@ body {
 .dropdown-menu .Featured .name {
   color: var(--text-color);
 }
+
+.dropdown-menu .Featured .name {
+  font-size: 12px;
+}
+.dropdown-menu .Featured small {
+  font-size: 12px;
+}
 .style-drob .Featured img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
 }
 .style-drob .Featured .hover {
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
   transition: all 0.2s;
 }
@@ -151,6 +158,10 @@ body {
 }
 .style-drob .PropertyTypes ul span {
   color: #4c5564;
+}
+.style-drob .PropertyTypes ul li span,
+.style-drob .PropertyTypes ul li {
+  font-size: 14px;
 }
 .style-drob .PropertyTypes ul li:hover span {
   color: var(--main-color);
@@ -202,6 +213,11 @@ body {
 .style-drob .PopularLocations .image-3:hover {
   background-image:
     linear-gradient(rgba(127, 34, 254, 0.6)), url(../Images/miami.jpeg);
+}
+.style-drob .PopularLocations .image-1 span,
+.style-drob .PopularLocations .image-2 span,
+.style-drob .PopularLocations .image-3 span {
+  font-size: 13px;
 }
 
 .style-drob .PopularLocations .p-1:last-child {
