@@ -3,6 +3,9 @@
   #home h1 {
     font-size: 48px;
   }
+  #home .search-bar ::placeholder{
+    font-size: 14px;
+  }
   #FAQ .accordion-header button {
     font-size: 18px;
   }
@@ -10,6 +13,9 @@
 
 /* md */
 @media screen and (min-width: 768px) {
+  #home .search-bar ::placeholder{
+    font-size: 16px;
+  }
   #testimonials .header-section-style h2 {
     font-size: 36px;
   }

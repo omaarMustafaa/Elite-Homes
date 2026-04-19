@@ -117,6 +117,7 @@ body {
 
 .scrollable-menu {
   max-height: 80vh;
+  width: 100%;
   overflow-y: auto;
   overflow-x: auto;
 }
@@ -394,8 +395,7 @@ body {
 
 #home .search-bar ::placeholder {
   color: #98a1ae;
-
-  font-size: 16px;
+  font-size: 10px;
 }
 #home .search-bar .form-control:focus {
   box-shadow: var(--main-color);
@@ -565,6 +565,7 @@ body {
   background-color: #ddd6ff;
   color: var(--main-color);
   text-align: center;
+  font-size: 14px;
 }
 
 #FeaturedProperties .card .span-card-1-c1 {
