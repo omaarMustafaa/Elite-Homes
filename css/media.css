@@ -11,6 +11,9 @@
   #home .search-bar ::placeholder {
     font-size: 14px;
   }
+  #FeaturedProperties .card-body .last-span{
+    padding: 5px 15px;
+  }
   #FAQ .accordion-header button {
     font-size: 18px;
   }
