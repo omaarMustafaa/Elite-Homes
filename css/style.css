@@ -400,12 +400,26 @@ body {
   box-shadow: none;
 }
 
-#home .search-bar span {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 3%;
+.input-group-text{
+  background-color: #fff;
+  border-right: 0;
   color: #98a1ae;
+  border-radius: 10px;
+}
+
+.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control,
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+  border-color: #DEE2E6;
+}
+
+.input-group:focus-within .input-group-text {
+  background-color: #fff;
+  color: #98a1ae;
+  border-color: var(--main-color) !important;
+  outline: 0;
+}
+.input-group input{
+  border-left: 0;
 }
 
 #home .search-bar option {
